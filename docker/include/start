@@ -1,0 +1,8 @@
+#!/bin/bash
+source /usr/local/bin/virtualenvwrapper.sh 
+
+workon ph
+cd api
+#exec gosu delivery python api.py
+exec python api.py
+#python api.py
